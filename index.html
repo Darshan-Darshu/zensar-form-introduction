@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zensar</title>
+</head>
+
+<body>
+    <header>
+        <h1>Form - Input</h1>
+        <nav>
+            <ul>
+                <li>input</li>
+                <li>label</li>
+                <li>attribute</li>
+                <li>method</li>
+                <li>action</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="/success.html" method="get" autocomplete="off">
+            <div>
+                <label for="text">Text</label>
+                <br>
+                <input type="text" id="text" name="text" required>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="" id="checkbox" name="checkbox">
+                <label for="checkbox">Checkbox</label>
+                <input type="checkbox" name="" id="checkbox" name="checkbox">
+                <label for="checkbox">Checkbox</label>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <br>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="radio">
+                <input type="radio" id="radio" name="radio">
+                <label for="radio">radio</label>
+                <input type="radio" id="radio" name="radio">
+                <label for="radio">radio</label>
+            </div>
+
+            <div>
+                <select name="option" id="option">
+                    <option value="option1">1</option>
+                    <option value="option1">2</option>
+                    <option value="option1">3</option>
+                    <option value="option1">4</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="textarea">Text</label>
+                <br>
+                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+                <button disabled="disabled" class="disabled">Disabled</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
